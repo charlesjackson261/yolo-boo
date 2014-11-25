@@ -1,0 +1,13 @@
+<addon id="repository.yolo-boo" name="Yolo-Boo's Repository" version="0.0.3" provider-name="Yolo-Boo">
+	<extension point="xbmc.addon.repository" name="Yolo-Boo XBMC Addon Collection">
+		<info compressed="false">https://raw.githubusercontent.com/charlesjackson261/yolo-boo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/charlesjackson261/yolo-boo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/charlesjackson261/yolo-boo/raw/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Yolo-Boo Addons</summary>
+		<description>Download and install addons collected by Yolo-Boo!</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+

@@ -1,29 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.movie25"
-       name="Mash Up"
-       version="1.4.1"
-       provider-name="Tronix 2014">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-		<import addon="script.module.urlresolver"  version="0.0.1"/>
-		<import addon="script.module.t0mm0.common" version="1.1.0"/>
-		<import addon="script.module.metahandler"  version="1.0.2"/>
-		<import addon="script.module.beautifulsoup"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource"
-               library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-    <summary lang="en">Browse Movie25 and many more sources</summary>
-    <description lang="en">Browse and play a wide selection of movies from the sites like Movie25.com, watchfreeseres, seriesgate, rlsmx, newmyvidelinks etc.
-	[COLOR red]Mash Up plugin is coded with Google Analytics which can be disabled in addon settings under General Tab.[/COLOR]
-	[COLOR green]Mash Up is Now Officially Ad Free[/COLOR]</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <!--suppress ALL -->
 <addon id="plugin.video.1channel" version="2.5.55" name="1Channel" provider-name="Bstrdsmkr, tuxen, tknorris">
     <requires>
@@ -48,5 +24,42 @@
         <website>http://tvaddons.ag/</website>
 		<forum>http://forums.tvaddons.ag/forums/32-BSTRDSMKR-S-REPOSITORY</forum>
     </extension>
+</addon>
+
+<addon id="plugin.video.movie25"
+       name="Mash Up"
+       version="1.4.1"
+       provider-name="Tronix 2014">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.urlresolver"  version="0.0.1"/>
+		<import addon="script.module.t0mm0.common" version="1.1.0"/>
+		<import addon="script.module.metahandler"  version="1.0.2"/>
+		<import addon="script.module.beautifulsoup"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+    <summary lang="en">Browse Movie25 and many more sources</summary>
+    <description lang="en">Browse and play a wide selection of movies from the sites like Movie25.com, watchfreeseres, seriesgate, rlsmx, newmyvidelinks etc.
+	[COLOR red]Mash Up plugin is coded with Google Analytics which can be disabled in addon settings under General Tab.[/COLOR]
+	[COLOR green]Mash Up is Now Officially Ad Free[/COLOR]</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="repository.yolo-boo" name="Yolo-Boo's Repository" version="0.0.3" provider-name="Yolo-Boo">
+	<extension point="xbmc.addon.repository" name="Yolo-Boo XBMC Addon Collection">
+		<info compressed="false">https://raw.githubusercontent.com/charlesjackson261/yolo-boo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/charlesjackson261/yolo-boo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/charlesjackson261/yolo-boo/raw/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Yolo-Boo Addons</summary>
+		<description>Download and install addons collected by Yolo-Boo!</description>
+		<platform>all</platform>
+	</extension>
 </addon>
 </addons>
